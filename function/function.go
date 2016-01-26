@@ -58,7 +58,7 @@ type Config struct {
 	Runtime     string            `json:"runtime" validate:"nonzero"`
 	Memory      int64             `json:"memory" validate:"nonzero"`
 	Timeout     int64             `json:"timeout" validate:"nonzero"`
-	Role        string            `json:"role" validate:"nonzero"`
+	Role        string            `json:"role"`
 	Handler     string            `json:"handler" validate:"nonzero"`
 	Shim        bool              `json:"shim"`
 	Environment map[string]string `json:"environment"`
