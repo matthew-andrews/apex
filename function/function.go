@@ -173,7 +173,6 @@ func (f *Function) DeployConfig() error {
 		MemorySize:   &f.Memory,
 		Timeout:      &f.Timeout,
 		Description:  &f.Description,
-		Role:         &f.Role,
 		Handler:      &f.Handler,
 	})
 
